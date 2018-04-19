@@ -13,7 +13,7 @@ application into three layers: Model, View, and Controller, each with a specific
 == Model layer
 
 The <em><b>Model layer</b></em> represents the domain model (such as Account, Product,
-Person, Post, etc.) and encapsulates the business logic that is specific to
+Person, Post, etc.) and encapsulates the business logic specific to
 your application. In \Rails, database-backed model classes are derived from
 <tt>ActiveRecord::Base</tt>. {Active Record}[link:files/activerecord/README_rdoc.html] allows you to present the data from
 database rows as objects and embellish these data objects with business logic
